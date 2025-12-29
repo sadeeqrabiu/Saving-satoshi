@@ -134,9 +134,7 @@ const validateBlock = (block) => {
 };
 
 /**
- * ============================================================================
  * SHOWTIME: THE MAIN CHAIN SELECTION ALGORITHM
- * ============================================================================
  * 
  * This function implements Bitcoin's chain selection - finding the longest
  * valid chain among potentially many competing forks.
@@ -181,9 +179,7 @@ const showtime = () => {
   // Get the current blockchain height from the node
   let last = Bitcoin.rpc("getinfo")["blocks"];
   
-  // =========================================================================
-  // PHASE 1: Process all blocks and identify valid chains
-  // =========================================================================
+  // Process all blocks and identify valid chains
   while (height <= last) {
     // Get all candidate blocks at this height (may be multiple due to forks)
     let candidates = Bitcoin.rpc("getblocksbyheight", height);
@@ -219,9 +215,7 @@ const showtime = () => {
     height += 1;
   }
   
-  // =========================================================================
-  // PHASE 2: Find the longest valid chain
-  // =========================================================================
+  // Find the longest valid chain
   
   // Among all valid chain tips, find the one with maximum height
   // This is the tip of the "best" (longest valid) chain
@@ -229,9 +223,7 @@ const showtime = () => {
     return a["height"] > b["height"] ? a : b;
   });
   
-  // =========================================================================
-  // PHASE 3: Reconstruct the chain from tip back to start
-  // =========================================================================
+  // Reconstruct the chain from tip back to start
   
   // Start with the best tip and walk backwards using parent links
   let best_hash = best["hash"];
