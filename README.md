@@ -7,7 +7,7 @@ This repository contains learning-focused solutions and notes for the Saving Sat
 The purpose of this repo is to understand Bitcoin concepts, not to shortcut the challenge.
 If you are participating, try solving the challenges yourself first.
 
- 🎯 Purpose
+# 🎯 Purpose
 
 Learn Bitcoin fundamentals through hands-on challenges
 
@@ -15,7 +15,7 @@ Practice cryptography, scripts, and protocol concepts
 
 Document understanding and problem-solving approaches
 
- ⚠️ Disclaimer
+# ⚠️ Disclaimer
 
 This repository is for educational purposes only
 
@@ -23,10 +23,10 @@ Not affiliated with the official Saving Satoshi project
 
 Solutions reflect personal understanding and may not be optimal
 
-🗂️ Structure
+# 🗂️ Structure
 challenges/   # challenge solutions
 notes/        # Learning notes and explanations
 
-🧑‍💻 Author
+#🧑‍💻 Author
 
-Sadiq Ra — Bitcoin-focused software engineer
+Sadiq: Bitcoin-focused software engineer
