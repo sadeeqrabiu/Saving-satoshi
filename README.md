@@ -24,9 +24,10 @@ Not affiliated with the official Saving Satoshi project
 Solutions reflect personal understanding and may not be optimal
 
 # 🗂️ Structure
-challenges/   # challenge solutions
-notes/        # Learning notes and explanations
+Chapters/   # BOSS challenge solutions
 
-#🧑‍💻 Author
+🧑‍💻 Author
 
 Sadiq: Bitcoin-focused software engineer
+
+src: https://github.com/saving-satoshi/saving-satoshi
