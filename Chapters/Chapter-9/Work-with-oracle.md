@@ -48,7 +48,7 @@ Stack: SIG(VANDERPOOLE) FD3771E8 1
 
 ### If you spend (after timelock):
 ```
-Stack: SIG(ME) 0
+Stack: SIG(ME) FD3771E8 0
 ```
 - `0` triggers the ELSE branch
 - Timelock must have expired
